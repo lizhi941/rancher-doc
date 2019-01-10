@@ -1,5 +1,5 @@
 # Index
 ## Install rancher
-* rancher,rancher-server,rancher-client 
+* [Install rancher](/content/install_rancher.md)
 *
 ## Example
