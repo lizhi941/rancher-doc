@@ -17,12 +17,10 @@ You can run etcd, Control Plane, Worker in one machine or diffirent machine. But
 
 * Step3
 
+* Copy the code from the box in the picture  above, put it into the host and run it. After a few minutes of running, you can see that it has been installed successfully on the page.
+
+
 ![step3](/images/step3.png)
-
-
-* Step4
-
-![step4](/images/step4.png)
 
 
 
