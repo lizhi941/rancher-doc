@@ -3,10 +3,10 @@
 * [Install rancher](/content/install_rancher.md)
 * [Add a cluster](/content/add_a_cluster.md)
 ## Pipelines
-### <a href="what_is_pipline?">what is pipline?</a>
-### <a href="which_three_stages_a_pipline?">which three stages a pipline?</a>
-### <a href="Pipeline_Terminology">Pipeline Terminology</a>
-### <a href="how_to_Configure_Pipelines">how to Configure Pipelines</a>
+### <a href="#what_is_pipline?">what is pipline?</a>
+### <a href="#which_three_stages_a_pipline?">which three stages a pipline?</a>
+### <a href="#Pipeline_Terminology">Pipeline Terminology</a>
+### <a href="#how_to_Configure_Pipelines">how to Configure Pipelines</a>
 
 
 ## Example
