@@ -48,6 +48,8 @@ click cluster tab "magento2"-> Default -> Pipelines -> Cobfigure Repositories ->
 	
  lizhi123456/magento2  to enable.
 
+Now back to the pipleline, you will see the  lizhi123456/magento2 showing.
+
 ## <a name="2">2. Configuring Pipeline Stages and Steps</a>
 
 ## <a name="3">3. Running the Pipeline</a>
