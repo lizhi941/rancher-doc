@@ -58,9 +58,9 @@ Step types available include:
 
 * Clone
 
-The first stage is preserved to be a cloning step that checks out source code from your repo. Rancher handles the cloning of the git 
+The first stage is preserved to be a cloning step that checks out source code from your repo. Rancher handles the cloning of the 
 
-repository. This action is equivalent to git clone <repository_link> <workspace_dir>.
+git repository. This action is equivalent to git clone <repository_link> <workspace_dir>.
 
 This stage is automate runing that you dont need to configure.
 
