@@ -52,6 +52,46 @@ Now back to the pipleline, you will see the  lizhi123456/magento2 showing.
 
 ## <a name="2">2. Configuring Pipeline Stages and Steps</a>
 
+You can use web UI or yml files to configure pipeline stages and steps. Here we use yml to configure.
+
+Step types available include:
+
+* Clone
+
+The first stage is preserved to be a cloning step that checks out source code from your repo. Rancher handles the cloning of the git 
+
+repository. This action is equivalent to git clone <repository_link> <workspace_dir>.
+
+This stage is automate runing that you dont need to configure.
+
+
+* Run Script
+
+The Run Script step executes arbitrary commands in the workspace inside a specified container. You can use it to build, test and do 
+
+more, given whatever utilities the base image provides. For your convenience you can use variables to refer to metadata of a pipeline 
+
+execution. Please go to the Pipeline Variable Reference for the list of available variables.
+
+
+* Build and Publish Images
+
+The Build and Publish Image step builds and publishes a Docker image. This process requires a Dockerfile in your source code’s 
+
+repository to complete successfully.
+
+
+
+* Deploy YAML
+
+This step deploys arbitrary Kubernetes resources to the project. This deployment requires a Kubernetes manifest file to be present in 
+
+the source code repository. Pipeline variable substitution is supported in the manifest file. You can view an example file at GitHub. 
+
+For available variables, refer to Pipeline Variable Reference.
+
+
+
 ## <a name="3">3. Running the Pipeline</a>
 
 ## <a name="4">4. Configuring Persistent Data for Pipeline Components</a>
