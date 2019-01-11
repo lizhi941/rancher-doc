@@ -39,7 +39,6 @@ efficiently as possible. Within Rancher, you can configure a pipeline for each o
 * Workspace
 
 
-## <a name="how_to_Configure_Pipelines">How to Configure Pipelines</a>
 
 
 
