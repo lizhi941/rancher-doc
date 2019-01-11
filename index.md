@@ -6,7 +6,7 @@
 ### <a href="#what_is_pipline?">What is pipline?</a>
 ### <a href="#which_three_stages_a_pipline?">Which three stages a pipline?</a>
 ### <a href="#pipeline_Terminology">Pipeline Terminology</a>
-### <a href="#how_to_Configure_Pipelines">How to Configure Pipelines</a>
+### [How to Configure Pipelines](/content/how_to_configure_pipelines)
 
 
 ## Example
