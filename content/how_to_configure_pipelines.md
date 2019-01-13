@@ -102,5 +102,22 @@ For available variables, refer to Pipeline Variable Reference.
 
 * 1.Cannot publish 2 images with rancher-pipeline
 
-https://github.com/rancher/rancher/issues/16624
+
+   * Main cause：
+     
+     The cause is that currently the docker daemon storage path is sharing among containers in the build pod, but in docker's design /var/lib/docker is intended to be managed by a single daemon.
+
+     
+     
+   * How to solve：
+   
+    For muliple publish steps, we can:
+    give additional env vars to the build image step:
+    for examle in .rancherpipeline.yml:
+    ```
+    env:
+      PLUGIN_STORAGE_PATH: /var/lib/docker2
+    ```
+    https://github.com/rancher/rancher/issues/16624
+
 
