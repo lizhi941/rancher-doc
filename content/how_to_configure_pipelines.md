@@ -13,7 +13,7 @@
 ###  <a href=#5>Advanced Configuration</a>
 
 
-
+### <a href=#6>Some issue</a>
 
 
 ## <a name="1">1. Configuring Version Control Providers</a>
@@ -97,3 +97,10 @@ For available variables, refer to Pipeline Variable Reference.
 ## <a name="4">4. Configuring Persistent Data for Pipeline Components</a>
 
 ## <a name="5">Advanced Configuration</a>
+
+## <a name="6">Some issues</a>
+
+* 1.Cannot publish 2 images with rancher-pipeline
+
+https://github.com/rancher/rancher/issues/16624
+
