@@ -15,6 +15,11 @@ You can run etcd, Control Plane, Worker in one machine or diffirent machine. But
 
 ![step2](/images/step2.png)
 
+If you want to public the service with public IP , you should click the tab "show advanced options" to fill the public ip and the 
+
+private ip.
+
+
 * Step3
 
  Copy the code from the box in the picture  above, put it into the host and run it. After a few minutes of running, you can see that it has been installed successfully on the page.
