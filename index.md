@@ -3,6 +3,7 @@
 * [Install rancher](/content/install_rancher.md)
 * [Add a cluster](/content/add_a_cluster.md)
 * [Delete](/content/delete.md)
+* [issues](/content/issues.md)
 ## Pipelines
 ### <a href="#what_is_pipline?">What is pipline?</a>
 ### <a href="#which_three_stages_a_pipline?">Which three stages a pipline?</a>
